@@ -1,0 +1,19 @@
+@import "../utils/variables";
+
+#footer{
+  height: 150px;
+  width: 100%;
+  background-color: $primary;
+
+  /* to remove*/
+  position: absolute;
+  bottom: 0;
+
+  .container{
+    /* to remove*/
+    p{
+      color: white;
+      font-size: 50px;
+    }
+  }
+}
