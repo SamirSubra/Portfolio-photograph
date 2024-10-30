@@ -1,31 +1,40 @@
-/* Poppins Regular */
+/* DMMono Regular */
 @font-face {
-  font-family: 'Poppins';
-  src: url('@/assets/fonts/Poppins-Regular.ttf') format('truetype');
+  font-family: 'DMMono';
+  src: url('@/assets/fonts/DMMono-Regular.ttf') format('truetype');
   font-weight: normal;
   font-style: normal;
 }
 
-/* Poppins Bold */
+/* DMMono Medium */
 @font-face {
-  font-family: 'Poppins';
-  src: url('@/assets/fonts/Poppins-Bold.ttf') format('truetype');
-  font-weight: bold;
+  font-family: 'DMMono';
+  src: url('@/assets/fonts/DMMono-Medium.ttf') format('truetype');
+  font-weight: 500;
   font-style: normal;
 }
 
-/* Poppins Italic */
+/* DMMono Italic */
 @font-face {
-  font-family: 'Poppins';
-  src: url('@/assets/fonts/Poppins-Italic.ttf') format('truetype');
+  font-family: 'DMMono';
+  src: url('@/assets/fonts/DMMono-Italic.ttf') format('truetype');
   font-weight: normal;
   font-style: italic;
 }
 
-/* Poppins Bold Italic */
+/* DMMono Light */
 @font-face {
-  font-family: 'Poppins';
-  src: url('@/assets/fonts/Poppins-BoldItalic.ttf') format('truetype');
-  font-weight: bold;
+  font-family: 'DMMono';
+  src: url('@/assets/fonts/DMMono-Light.ttf') format('truetype');
+  font-weight: 300;
+  font-style: normal;
+}
+
+
+/* DMMono Medium Italic */
+@font-face {
+  font-family: 'DMMono';
+  src: url('@/assets/fonts/DMMono-MediumItalic.ttf') format('truetype');
+  font-weight: normal;
   font-style: italic;
 }

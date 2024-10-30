@@ -2,25 +2,25 @@
 @import "./variables";
 
 %heading-1 {
-  @include fonts.ez-font($Poppins, 600);
+  @include fonts.ez-font($DMMono, 600);
   @include fonts.ez-font-size(64px, 40px);
   //@include fonts.ez-line-height(80px, 45px);
 }
 
 %heading-2 {
-  @include fonts.ez-font($Poppins, 600);
+  @include fonts.ez-font($DMMono, 600);
   @include fonts.ez-font-size(48px, 28px);
 }
 
 %heading-3 {
-  @include fonts.ez-font($Poppins, 700);
+  @include fonts.ez-font($DMMono, 700);
   @include fonts.ez-font-size(21px, 16px);
   //color: $black;
 }
 
 
 %paragraph {
-  @include fonts.ez-font($Poppins, normal);
+  @include fonts.ez-font($DMMono, normal);
   @include fonts.ez-font-size(16px);
   //color: $text;
 }

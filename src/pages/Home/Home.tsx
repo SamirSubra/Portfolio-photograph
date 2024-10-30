@@ -4,9 +4,7 @@ import HeroSection from "./HeroSection.tsx";
 const Home = () => {
     return (
         <main id="Home">
-            <div className="container">
-                <HeroSection/>
-            </div>
+            <HeroSection/>
         </main>
     );
 };

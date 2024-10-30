@@ -1,5 +1,29 @@
-#Home{
-  .container{
+@import "@/styles/utils/variables";
 
+#footer{
+  display: none;
+}
+#Home{
+  .hero-section{
+    background-color: $primary;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    .video-container{
+      position: relative;
+      height: 460px;
+      width: 945px;
+      //height: 590px;
+      //width: 1180px;
+      mix-blend-mode: multiply;
+
+      video{
+        background-color: red;
+        background-blend-mode: multiply;
+        max-height: 590px;
+        max-width: 1180px;
+      }
+    }
   }
 }

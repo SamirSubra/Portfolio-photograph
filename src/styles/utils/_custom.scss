@@ -9,14 +9,22 @@
   padding: 0;
   box-sizing: border-box;
   -webkit-backface-visibility: hidden;
-  font-family: $Poppins;
+  font-family: $DMMono, monospace;
+  text-transform: uppercase;
 }
 
+body{
+  background-color: $primary;
+  //cursor: url("@/assets/images/touch-cursor.png"), auto;
+
+  //&.clicked{
+  //  cursor: url("@/assets/images/touch-cursor-small.png"), auto;
+  //}
+}
 // ========= CONTAINER ========= //
 .container {
   width: 100%;
-  max-width: 1260px;
-  padding: 0 35px;
+  padding: 0 20px;
   margin: 0 auto 0;
 }
 
